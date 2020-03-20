@@ -5,14 +5,24 @@ body {
   overflow: hidden;
 }
 
-#credit {
+footer {
+  font: 10px monospace;
+  padding: 5px 20px;
+  color: #eee;
+  line-height: 1.5;
   position: fixed;
-  top: 0;
-  bottom: 0;
   left: 0;
+  bottom: 0;
   right: 0;
   z-index: 2;
-  color: #fff;
+
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #eee;
 }
 
 path {
